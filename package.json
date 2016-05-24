@@ -1,0 +1,28 @@
+{
+  "name": "vectorwatch-storageprovider",
+  "version": "1.0.0",
+  "description": "Class for choosing a VectorWatch StorageProvider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "robert.miroiu@vectorwatch.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VectorWatch/storageprovider-strategy.git"
+  },
+  "keywords": [
+    "vectorwatch"
+  ],
+  "bugs": {
+    "url": "https://github.com/VectorWatch/storageprovider-strategy/issues"
+  },
+  "homepage": "https://github.com/VectorWatch/storageprovider-strategy#readme",
+  "dependencies": {
+    "vectorwatch-storageprovider-abstract": "^1.0.0",
+    "vectorwatch-storageprovider-filesystem": "^1.0.0",
+    "vectorwatch-storageprovider-memory": "^1.0.0",
+    "vectorwatch-storageprovider-mysql": "^1.0.0"
+  }
+}
